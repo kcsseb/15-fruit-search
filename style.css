@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(to bottom right, thistle, lightblue);
+  height: 100vh;
+}
+
+.search-container {
+  position: relative;
+  padding: 15vh;
+}
+
+.search-container input,
+.search-container .suggestions {
+  width: 50%;
+  margin: auto;
+}
+
+.search-container input {
+ display: block;
+}
+
+.search-container .suggestions {
+   height: 50vh;
+}
+
+ul {
+  height: 100%;
+  padding: 2px;
+  overflow: auto;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li:hover {
+  background-color: whitesmoke;
+}
